@@ -1,8 +1,6 @@
 import numpy as np
 import copy
 
-test_list = [1,9,10,3,2,3,11,0,99,30,40,50]
-
 def intcode_computer(input_list, overrides = {}):
 
     for k, v in overrides.items():
@@ -33,6 +31,7 @@ def perform(input, overrides):
     print("Overrides are:", overrides)
     print("Output is:", intcode_computer(input, overrides=overrides))
 
+# test_list = [1,9,10,3,2,3,11,0,99,30,40,50]
 # perform(test_list)
 # print("-------------")
 # perform([1,0,0,0,99])
