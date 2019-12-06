@@ -30,6 +30,8 @@ def check_number_string(number_string):
         return False
     return True
 
+# TODO / NOTE - can improve this code utilising regex in the above for the task 2 section
+
 counter = 0
 for num in np.arange(134792, 675810 + 1):
     if check_number_string(num):
